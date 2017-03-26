@@ -1,0 +1,30 @@
+<head>
+	<link rel="stylesheet" type="text/css" href="/static/styles/styles.css" >
+</head>
+
+<body id="body">
+
+	<h1>Header</h1>
+
+	<form action="/new-book" method="POST" onsubmit="return validateForm()">
+		Name:
+		<input id="nameInput" name="name">
+		<br>
+		Author:
+		<input id="authorInput" name="author">
+		<br>
+		Year Published:
+		<input id="yearPublishedInput" name="yearPublished">
+		<br>
+		Pages:
+		<input id="pagesInput" name="pages">
+		<br>
+		<input id="submit" type="submit" value="Submit">
+	</form>
+
+	<a href="/books">My books</a>
+
+
+	<script script  src="/static/scripts/home.js""></script>
+
+</body>
